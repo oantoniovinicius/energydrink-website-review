@@ -1,0 +1,28 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.menu{
+    width: 100%;
+    background-color: #000000;
+    height: 70px;
+}
+.logo{
+    padding: 15px;
+    float: left;
+    width: 50%;
+}
+.redes-sociais ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+.redes-sociais{
+    width: 20%;
+    float: right;
+}
+main{
+    margin: 0 auto;
+    width: 1200px;
+    position: relative;
+}
