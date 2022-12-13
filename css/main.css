@@ -79,7 +79,7 @@ main{
 .col-100{
     width: 100%;
     float: left;
-    position: relative;    
+    position: absolute;    
 }   
 button.slick-prev{
     display: inline-block;
@@ -93,6 +93,7 @@ button.slick-prev{
     position: absolute;
     top: 35%;
     left: 2%;
+    cursor:pointer;
 }
 button.slick-next{
     display: inline-block;
@@ -106,14 +107,27 @@ button.slick-next{
     position: absolute;
     top: 35%;
     right:2%;
+    cursor:pointer;
 }
-ul.slick-dots li button{
+.slick-initialized{
+    overflow: hidden;
+}
+.slick-dots li button{
     font-size: 0px;
-    border: 3px solid #ffffff;
+    border: 5px solid #ffffff;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    cursor: pointer;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
 }
-ul.slick-dots li.slick-active {
-    background-color: rgb(0, 208, 21);
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 48%;
+    top: 420px;
+}
+.slick-dots li{
+    display: inline-block;
 }
